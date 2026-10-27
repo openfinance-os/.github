@@ -37,6 +37,7 @@ Community-contributed tools, templates, references and insights that anyone buil
 | [Open Finance Hackathon Docs](https://openfinance-os.org/commons/demo-tpp-starter-kit) | Utility | Documentation hub for the ADCB & Nebras UAE Open Finance Hackathon: quick start, API references, starter kit and project examples. |
 | [The UX of Consent Models in Open Banking](https://openfinance-os.org/commons/consent-ux-patterns-reference) | Reference | Analysis of consent UX patterns from the UK Open Banking Implementation Entity, with lessons for Al Tareq. |
 | [Open Finance Data for Credit Underwriting](https://openfinance-os.org/commons/open-finance-underwriting-insights) | Insight | A practical framework for combining Open Finance transaction data with traditional credit assessment. |
+| [One business. More than one bank.](https://openfinance-os.org/commons/sme-multi-bank-cash-flow) | Insight | A synthetic SME example of how a consent-based account view could help a clinic understand cash across banks, and what evidence stays outside that view. |
 | [TPP Customer Terms & Conditions Template](https://openfinance-os.org/commons/tpp-terms-conditions-template) | Artifact | A starting template for TPP customer-facing terms for Open Finance data access in the UAE. |
 
 Have something to share? See [how to contribute to the Commons](https://openfinance-os.org/commons/contribute).
