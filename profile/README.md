@@ -4,7 +4,7 @@
 
 [![Website](https://img.shields.io/badge/website-openfinance--os.org-0D4F4F)](https://openfinance-os.org)
 [![Observatory data](https://img.shields.io/badge/observatory%20data-CC--BY--4.0-blue)](https://openfinance-os.org/observatory)
-[![Discussions](https://img.shields.io/badge/discussions-join-brightgreen)](https://github.com/openfinance-os/docs/discussions)
+[![Discussions](https://img.shields.io/badge/discussions-join-brightgreen)](https://github.com/openfinance-os/community-website/discussions)
 
 ---
 
@@ -56,13 +56,12 @@ Benchmarking UAE progress against the [UK](https://openfinance-os.org/global/uk)
 
 | Repository | What it is | Tech | License |
 |---|---|---|---|
+| [community-website](https://github.com/openfinance-os/community-website) | The source of [openfinance-os.org](https://openfinance-os.org): Observatory, Commons, News, Learn and Global. Home of our [GitHub Discussions](https://github.com/openfinance-os/community-website/discussions), [contributing guide](https://github.com/openfinance-os/community-website/blob/main/docs/CONTRIBUTING.md), [editorial policy](https://github.com/openfinance-os/community-website/blob/main/docs/EDITORIAL.md) and [governance](https://github.com/openfinance-os/community-website/blob/main/docs/GOVERNANCE.md). | Astro | — |
 | [data-sandbox](https://github.com/openfinance-os/data-sandbox) | Synthetic UAE Open Finance corpus, client-side explorer, local mock server, labs and MCP server. Validated against Standards v2.1 with the official consolidated errata. Hosted at [openfinance-os.github.io/data-sandbox](https://openfinance-os.github.io/data-sandbox/). | JavaScript, Python | MIT |
 | [ofbo](https://github.com/openfinance-os/ofbo) | Open Finance Back Office: a bank-neutral reference back office covering both the LFI and TPP-of-record roles, with four-eyes approvals, reconciliation, analytics, compliance reporting and an audit trail. Includes a live synthetic-data demo. | TypeScript | — |
-| [docs](https://github.com/openfinance-os/docs) | Documentation for the ADCB & Nebras UAE Open Finance Hackathon, built with Mintlify. Also hosts our public [GitHub Discussions](https://github.com/openfinance-os/docs/discussions). | MDX | MIT |
+| [docs](https://github.com/openfinance-os/docs) | Documentation for the ADCB & Nebras UAE Open Finance Hackathon, built with Mintlify. | MDX | MIT |
 | [the-finance-wrapper](https://github.com/openfinance-os/the-finance-wrapper) | Small Express example of an idempotent payment runner with a bounded queue and worker pool. | JavaScript | MIT |
 | [.github](https://github.com/openfinance-os/.github) | This organisation profile. | — | — |
-
-The website itself is developed in a separate repository that is not yet public.
 
 ---
 
@@ -73,7 +72,7 @@ The website itself is developed in a separate repository that is not yet public.
 - **Build for a hackathon** → [Hackathon docs](https://github.com/openfinance-os/docs)
 - **See what a bank's back office needs** → [OFBO](https://github.com/openfinance-os/ofbo)
 - **Contribute a tool, template or insight** → [Commons contribution guide](https://openfinance-os.org/commons/contribute)
-- **Ask a question** → [GitHub Discussions](https://github.com/openfinance-os/docs/discussions)
+- **Ask a question** → [GitHub Discussions](https://github.com/openfinance-os/community-website/discussions)
 
 ---
 
@@ -87,7 +86,7 @@ We welcome contributions from everyone:
 - **🔍 Data** — help verify Observatory data and spot errors
 - **📣 Spread the word** — share with others who might benefit
 
-Start with the [Commons contribution guide](https://openfinance-os.org/commons/contribute) or open an issue in the relevant repository.
+Start with the [contributing guide](https://github.com/openfinance-os/community-website/blob/main/docs/CONTRIBUTING.md) and the [Commons contribution guide](https://openfinance-os.org/commons/contribute), or open an issue in the relevant repository. All participation is covered by our [code of conduct](https://github.com/openfinance-os/community-website/blob/main/CODE_OF_CONDUCT.md).
 
 ---
 
@@ -99,7 +98,7 @@ OpenFinance-OS is community-owned and community-funded.
 - **No paid placements**
 - **No editorial influence from funding**
 
-Decisions are made transparently by maintainers with input from the community. Read more on the [About page](https://openfinance-os.org/about).
+Decisions are made transparently by maintainers with input from the community. Read the [governance document](https://github.com/openfinance-os/community-website/blob/main/docs/GOVERNANCE.md) and the [About page](https://openfinance-os.org/about).
 
 ---
 
@@ -148,7 +147,7 @@ Registrations are directory IDs, not deduplicated legal entities. A published au
 ## 💬 Connect
 
 - **Website:** [openfinance-os.org](https://openfinance-os.org)
-- **Discussions:** [GitHub Discussions](https://github.com/openfinance-os/docs/discussions)
+- **Discussions:** [GitHub Discussions](https://github.com/openfinance-os/community-website/discussions)
 - **Issues:** report bugs or suggest features in the relevant repository
 
 ---
