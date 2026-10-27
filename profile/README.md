@@ -3,84 +3,91 @@
 **The community home for UAE Open Finance**
 
 [![Website](https://img.shields.io/badge/website-openfinance--os.org-0D4F4F)](https://openfinance-os.org)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Observatory data](https://img.shields.io/badge/observatory%20data-CC--BY--4.0-blue)](https://openfinance-os.org/observatory)
+[![Discussions](https://img.shields.io/badge/discussions-join-brightgreen)](https://github.com/openfinance-os/docs/discussions)
 
 ---
 
 ## What is this?
 
-OpenFinance-OS is a **community-driven initiative** to bring visibility, resources, and collaboration to the UAE Open Finance ecosystem.
+OpenFinance-OS is a **community-driven initiative** that brings visibility, resources and collaboration to the UAE Open Finance ecosystem.
 
-We are **not** an official regulator, scheme operator, or financial institution. We are developers, fintechs, bankers, and enthusiasts who believe open ecosystems thrive on transparency.
+We are **not** a regulator, scheme operator or financial institution. We are developers, fintechs, bankers and enthusiasts who believe open ecosystems thrive on transparency.
 
 **We link to official sources. We don't replace them.**
 
 ---
 
-## 🔭 What we're building
+## 🔭 What's on openfinance-os.org
 
-### [Observatory Dashboard](https://openfinance-os.org/observatory)
-Real-time visibility into ecosystem participation—who's in sandbox, who's production-ready, and how the ecosystem is growing over time.
+### [Observatory](https://openfinance-os.org/observatory)
+Independent tracking of who is registered in the production trust-framework directory, which roles and API families they publish, and how that changes over time. Every number is derived from the public directory and explained in the [methodology](https://openfinance-os.org/observatory/methodology). The underlying data is published as open datasets (CC-BY-4.0):
 
-### [News & Updates](https://openfinance-os.org/news)
-Community-curated news on regulatory changes, ecosystem milestones, and international developments. Always linked to primary sources.
+- [`registry-latest.json`](https://openfinance-os.org/observatory/data/registry-latest.json) — latest snapshot with summary statistics and full participant list
+- [`registry-history.json`](https://openfinance-os.org/observatory/data/registry-history.json) — observations over time
+- [`registry-changelog.json`](https://openfinance-os.org/observatory/data/registry-changelog.json) — what changed between snapshots
 
-### [Learning Resources](https://openfinance-os.org/learn)
-Getting started guides, glossary, and practical tips for TPPs, banks, and developers. Filling the gaps that official docs don't cover.
+### [Commons](https://openfinance-os.org/commons)
+Community-contributed tools, templates, references and insights that anyone building in UAE Open Finance can reuse. Current contributions:
 
-### [Global Perspective](https://openfinance-os.org/global)
-Benchmarking UAE progress against UK, EU, Brazil, and the GCC. Learning from international successes.
+| Contribution | Type | What it is |
+|---|---|---|
+| [Open Finance Data Sandbox](https://openfinance-os.org/commons/data-sandbox) | Utility | Synthetic UAE Open Finance corpus and explorer: 38 personas across Bank Data Sharing and all seven Insurance Data Sharing lines, an ATM directory, three LFI populate-rate profiles, an MCP server and pinnable fixture packages. No sandbox credentials needed. |
+| [Ecosystem Watcher](https://openfinance-os.org/commons/ecosystem-watcher) | Utility | Dashboard showing which licensed financial institutions are demonstrably live against each CBUAE mandate release, based on observed API traffic. |
+| [Open Finance Hackathon Docs](https://openfinance-os.org/commons/demo-tpp-starter-kit) | Utility | Documentation hub for the ADCB & Nebras UAE Open Finance Hackathon: quick start, API references, starter kit and project examples. |
+| [The UX of Consent Models in Open Banking](https://openfinance-os.org/commons/consent-ux-patterns-reference) | Reference | Analysis of consent UX patterns from the UK Open Banking Implementation Entity, with lessons for Al Tareq. |
+| [Open Finance Data for Credit Underwriting](https://openfinance-os.org/commons/open-finance-underwriting-insights) | Insight | A practical framework for combining Open Finance transaction data with traditional credit assessment. |
+| [TPP Customer Terms & Conditions Template](https://openfinance-os.org/commons/tpp-terms-conditions-template) | Artifact | A starting template for TPP customer-facing terms for Open Finance data access in the UAE. |
+
+Have something to share? See [how to contribute to the Commons](https://openfinance-os.org/commons/contribute).
+
+### [News](https://openfinance-os.org/news)
+Community-curated news on regulatory changes, ecosystem milestones and international developments, plus a weekly digest. Always linked to primary sources.
+
+### [Learn](https://openfinance-os.org/learn)
+[Getting started](https://openfinance-os.org/learn/getting-started), a [TPP guide](https://openfinance-os.org/learn/tpp-guide), a [bank guide](https://openfinance-os.org/learn/bank-guide), an [API guide](https://openfinance-os.org/learn/api-guide), a [glossary](https://openfinance-os.org/learn/glossary) and an [FAQ](https://openfinance-os.org/learn/faq). Filling the gaps that official docs don't cover.
+
+### [Global](https://openfinance-os.org/global)
+Benchmarking UAE progress against the [UK](https://openfinance-os.org/global/uk), the [EU](https://openfinance-os.org/global/eu) and the [GCC](https://openfinance-os.org/global/gcc).
 
 ---
 
-## 📦 Repositories
+## 📦 Public repositories
 
-| Repository | Description | Tech |
-|------------|-------------|------|
-| [docs](https://github.com/open-finance-os/docs) | Documentation, guides, and learning resources | MDX |
-| [hackathon-starter-kit](https://github.com/open-finance-os/hackathon-starter-kit) | Vue.js hackathon starter kit | Vue |
-| [.github](https://github.com/open-finance-os/.github) | Organization profile and community files | — |
+| Repository | What it is | Tech | License |
+|---|---|---|---|
+| [data-sandbox](https://github.com/openfinance-os/data-sandbox) | Synthetic UAE Open Finance corpus, client-side explorer, local mock server, labs and MCP server. Validated against Standards v2.1 with the official consolidated errata. Hosted at [openfinance-os.github.io/data-sandbox](https://openfinance-os.github.io/data-sandbox/). | JavaScript, Python | MIT |
+| [ofbo](https://github.com/openfinance-os/ofbo) | Open Finance Back Office: a bank-neutral reference back office covering both the LFI and TPP-of-record roles, with four-eyes approvals, reconciliation, analytics, compliance reporting and an audit trail. Includes a live synthetic-data demo. | TypeScript | — |
+| [docs](https://github.com/openfinance-os/docs) | Documentation for the ADCB & Nebras UAE Open Finance Hackathon, built with Mintlify. Also hosts our public [GitHub Discussions](https://github.com/openfinance-os/docs/discussions). | MDX | MIT |
+| [the-finance-wrapper](https://github.com/openfinance-os/the-finance-wrapper) | Small Express example of an idempotent payment runner with a bounded queue and worker pool. | JavaScript | MIT |
+| [.github](https://github.com/openfinance-os/.github) | This organisation profile. | — | — |
+
+The website itself is developed in a separate repository that is not yet public.
 
 ---
 
 ## 🚀 Quick start
 
-### Explore the ecosystem
-→ [openfinance-os.org](https://openfinance-os.org)
-
-### Build something
-→ [Hackathon Starter Kit (Vue)](https://github.com/open-finance-os/hackathon-starter-kit)
-
-### Learn
-→ [Documentation](https://github.com/open-finance-os/docs)
-
-### Join the conversation
-→ [GitHub Discussions](https://github.com/orgs/open-finance-os/discussions)
-
----
-
-## 🛠️ For hackathon participants
-
-Building for a UAE Open Finance Hackathon? Start here:
-
-1. **Fork the starter kit** — [Vue Starter Kit](https://github.com/open-finance-os/hackathon-starter-kit)
-2. **Read the docs** — [openfinance-os.org/learn](https://openfinance-os.org/learn)
-3. **Get your sandbox credentials** — From the hackathon organizers
-4. **Build something amazing** — Good luck! 🚀
+- **Explore the ecosystem** → [openfinance-os.org](https://openfinance-os.org)
+- **Play with realistic payloads, no credentials needed** → [Data Sandbox](https://openfinance-os.github.io/data-sandbox/)
+- **Build for a hackathon** → [Hackathon docs](https://github.com/openfinance-os/docs)
+- **See what a bank's back office needs** → [OFBO](https://github.com/openfinance-os/ofbo)
+- **Contribute a tool, template or insight** → [Commons contribution guide](https://openfinance-os.org/commons/contribute)
+- **Ask a question** → [GitHub Discussions](https://github.com/openfinance-os/docs/discussions)
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions from everyone. Here's how you can help:
+We welcome contributions from everyone:
 
-- **📝 Content** — Write news articles, guides, or glossary entries
-- **💻 Code** — Improve the website, build data collectors, fix bugs
-- **🔍 Data** — Help verify ecosystem information and spot errors
-- **📣 Spread the word** — Share with others who might benefit
+- **📝 Content** — news items, guides, glossary entries
+- **🧰 Commons** — tools, templates, references and insights other builders can reuse
+- **💻 Code** — improvements to any public repository above
+- **🔍 Data** — help verify Observatory data and spot errors
+- **📣 Spread the word** — share with others who might benefit
 
-See our [Contributing Guide](CONTRIBUTING.md) for details.
+Start with the [Commons contribution guide](https://openfinance-os.org/commons/contribute) or open an issue in the relevant repository.
 
 ---
 
@@ -92,19 +99,21 @@ OpenFinance-OS is community-owned and community-funded.
 - **No paid placements**
 - **No editorial influence from funding**
 
-Decisions are made transparently by maintainers with input from the community.
+Decisions are made transparently by maintainers with input from the community. Read more on the [About page](https://openfinance-os.org/about).
 
 ---
 
 ## 🔗 Official resources
 
-We complement—never replace—official channels:
+We complement, never replace, official channels:
 
 | Resource | Link |
-|----------|------|
-| Al Tareq Platform | [altareq.ae](https://altareq.ae) |
-| CBUAE | [cbuae.gov.ae](https://cbuae.gov.ae) |
-| UAE Open Finance Regulation | [CBUAE Regulatory Framework](https://www.cbuae.gov.ae/en/about-us/the-regulatory-framework) |
+|---|---|
+| CBUAE (regulator) | [cbuae.gov.ae](https://cbuae.gov.ae) |
+| Al Tareq (trust framework) | [altareq.ae](https://altareq.ae) |
+| Nebras (API Hub operator) | [nebras-open-finance.com](https://nebras-open-finance.com/) |
+| Open Finance UAE Standards | [openfinanceuae.atlassian.net](https://openfinanceuae.atlassian.net/wiki/spaces/OF) |
+| Trust-framework directory (data source for the Observatory) | [data.directory.openfinance.ae](https://data.directory.openfinance.ae) |
 
 ---
 
@@ -112,33 +121,35 @@ We complement—never replace—official channels:
 
 This is a **community project**.
 
-- Not affiliated with CBUAE, Al Tareq, or any financial institution
+- Not affiliated with CBUAE, Al Tareq, Nebras or any financial institution
 - Data is derived from public sources and may not be complete or current
-- Nothing here constitutes financial, legal, or regulatory advice
+- Nothing here constitutes financial, legal or regulatory advice
 - Official information should always be verified with primary sources
 
 ---
 
 ## 📊 Ecosystem snapshot
 
+From the production trust-framework directory, observed 26 October 2026:
+
 | Metric | Count |
-|--------|-------|
-| Total participants | 47 |
-| Live in production | 12 |
-| Production ready | 9 |
-| Sandbox only | 26 |
+|---|---|
+| Active production registrations | 29 |
+| Registrations with a published authorization server | 12 |
+| Registrations claiming the LFI role | 21 |
+| API families published | accounts, payments, products, confirmation of payee, ATM, insurance |
 
-*Last updated: December 2025*
+Registrations are directory IDs, not deduplicated legal entities. A published authorization server does not mean verified live traffic. Definitions are in the [methodology](https://openfinance-os.org/observatory/methodology) and inside every dataset file.
 
-→ [View full Observatory dashboard](https://openfinance-os.org/observatory)
+→ [Observatory](https://openfinance-os.org/observatory)
 
 ---
 
 ## 💬 Connect
 
 - **Website:** [openfinance-os.org](https://openfinance-os.org)
-- **Discussions:** [GitHub Discussions](https://github.com/orgs/open-finance-os/discussions)
-- **Issues:** Report bugs or suggest features in the relevant repository
+- **Discussions:** [GitHub Discussions](https://github.com/openfinance-os/docs/discussions)
+- **Issues:** report bugs or suggest features in the relevant repository
 
 ---
 
